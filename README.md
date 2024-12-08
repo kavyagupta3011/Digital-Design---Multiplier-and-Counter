@@ -25,12 +25,18 @@ A 2-bit binary multiplier multiplies two 2-bit binary numbers (A1A0 and B1B0) to
   - P3 = A1 * A0 * B1 * B0  
   - P2 = A1 * B1 * (A0 * B0)’  
   - P1 = (A1 * B0) ⊕ (A0 * B1)  
-  - P0 = A0 * B0  
+  - P0 = A0 * B0
+
+
+
+
 
 ### **Results**
 - **Voltage Representation:** Logic 1 = 5V, Logic 0 = 0V.  
 - Inputs and outputs were tested using a simulated testbench.  
 - Negligible voltage values (e.g., 24.5 nV) were approximated to 0V, confirming outputs matched the truth table.
+
+![Multiplier : Results](assets/comb_results.png)
 
 ---
 
@@ -51,7 +57,10 @@ A Mod-3 counter counts through three states (00, 01, 10) before resetting to its
 
 ### **Results**
 - State transition diagram, truth tables, and K-maps were used to verify design.  
-- Simulated waveforms matched theoretical expectations, validating the Mod-3 counter's functionality.  
+- Simulated waveforms matched theoretical expectations, validating the Mod-3 counter's functionality.
+
+![Counter : Waveform](assets/seq_waveform.png)
+![Counter : Results](assets/seq_results.png)
 
 ---
 
