@@ -1,8 +1,6 @@
 # Digital Design - Multiplier and Counter
 
 
-# **Combinational and Sequential Circuit Project**
-
 ## **Project Overview**
 This project focuses on the design, implementation, and analysis of two key digital circuits:  
 1. A **2-bit Binary Multiplier** (Combinational Circuit).  
